@@ -29,8 +29,8 @@ ENV PORT 3000
 
 EXPOSE 3000
 
-ENTRYPOINT ["echo","node get-claimed-rewards.js username"]
-CMD ["/bin/sh"]
+#ENTRYPOINT ["echo","node get-claimed-rewards.js username"]
+#CMD ["/bin/sh"]
 
 # uncomment the lines below to run it in development mode
 # ENV NODE_ENV development
